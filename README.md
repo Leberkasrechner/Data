@@ -7,7 +7,7 @@ Leberkasrechner is committed to user privacy and efficient data usage. Recognizi
 We utilize OpenStreetMap (OSM) data, specifically .pbf files, obtained from Geofabrik's OSM exports. These files are converted into .mbtiles using Planetiler. The resulting .mbtiles files are compatible with a tileserver like Tileserver-GL, ensuring a smooth user experience.
 
 ## Datasets
-- [Germany](https://data.leberkasrechner/Germany.mbtiles) (approximately 2.8 GB in size)
+- [Germany](https://data.leberkasrechner.de/Germany.mbtiles) (approximately 2.8 GB in size)
 
 ## Download Information
 Our download server is based in Vienna, providing quick and reliable access to the data files. However, due to the large size of the datasets, please be aware that downloads may require some time. We also cannot assure the up-to-dateness of the data.
