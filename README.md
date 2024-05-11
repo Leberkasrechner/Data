@@ -1,15 +1,19 @@
 # Leberkasrechner Map Data
-## Introduction
 
-At Leberkasrechner, we prioritize user privacy and data efficiency. We understand the importance of having large datasets for our maps, and the challenges that come with creating vector tiles from these datasets. To address this, we self-host our tile-server and have decided to release ready-to-use ```.mbtiles``` files to the public.
-## Methodology
+## Overview
+Leberkasrechner is committed to user privacy and efficient data usage. Recognizing the need for extensive datasets for our maps and the challenges of creating vector tiles, we have taken the initiative to self-host our tile-server and release public-ready `.mbtiles` files.
 
-Our process involves using OpenStreetMap (OSM) data in the form of .pbf files, which we source from [Geofabrik's OSM exports](https://download.geofabrik.de). We then convert these files into .mbtiles using Planetiler. The resulting .mbtiles files can be easily loaded into a tileserver like Tileserver-GL, providing a seamless experience for users.
-## Download
+## Process
+We utilize OpenStreetMap (OSM) data, specifically .pbf files, obtained from Geofabrik's OSM exports. These files are converted into .mbtiles using Planetiler. The resulting .mbtiles files are compatible with a tileserver like Tileserver-GL, ensuring a smooth user experience.
 
-Our download server is located in Vienna. This ensures fast and reliable access to the data files. Please note that due to the large size of the datasets, downloads may take some time. Nor can we guarantee that the data is up to date.
+## Datasets
+- [Germany](https://data.leberkasrechner/Germany.mbtiles) (approximately 2.8 GB in size)
 
-We hope this initiative will not only enhance the user experience but also contribute to the open-source community by providing valuable map data resources. We welcome feedback and contributions to improve this project.
+## Download Information
+Our download server is based in Vienna, providing quick and reliable access to the data files. However, due to the large size of the datasets, please be aware that downloads may require some time. We also cannot assure the up-to-dateness of the data.
+
+## Contribution to Open-Source Community
+We believe this initiative will not only improve the user experience but also contribute to the open-source community by offering valuable map data resources. We are open to feedback and contributions to enhance this project.
+
 ## Disclaimer
-
-Please ensure you comply with the terms of use and licensing requirements of the data sources and tools used in this project. Leberkasrechner is not responsible for any misuse or violations.
+Users are advised to adhere to the terms of use and licensing requirements of the data sources and tools used in this project. Leberkasrechner disclaims responsibility for any misuse or violations.
